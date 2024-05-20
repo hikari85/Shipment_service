@@ -1,1 +1,1 @@
-npm run start in root directory and it will work
+npm run start in root directory to start the React app
