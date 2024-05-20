@@ -45,7 +45,7 @@ function App() {
       
       let cid = document.getElementById('cid1').value;
       let pin = document.getElementById('pin1').value;
-      const pvt_key = "540de2394f72d4e99defbdb9bc81d88fc68e7812735f713f8a5d2f5acf98a2d2";
+      const pvt_key = ""; //Enter your wallets private key here
 
       let signer = new ethers.Wallet(pvt_key,provider);
       const contract = new ethers.Contract("0x8D4CEb2544FA90A148b3450433eB325de7F60F91",abi,signer);
